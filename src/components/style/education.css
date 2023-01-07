@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
     margin-bottom: 2rem;
 }.edu-section h1{
     color: #66FCF1;
@@ -120,6 +120,9 @@
 }
 
 @media only screen and (max-width:1200px ){
+    .edu-section{
+        margin-top: 4rem;
+    }
     .edu:nth-child(odd) .edu-data{
         float:right;
     } 

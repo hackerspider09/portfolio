@@ -3,7 +3,7 @@
     width: 100%;
     min-height: 100vh;
     /* height: 100vh; */
-    padding-top: 8rem;
+    /* padding-top: 8rem; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@
 }
 @media only screen and (max-width:1200px ){
     .skill{
-        padding-top: 8rem;
+        padding-top: 4rem;
     }
     .skillbox{
         width: 100%;

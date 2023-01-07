@@ -3,18 +3,18 @@ import "./style/hero.css";
 import Typing from "./Typing_animation";
 function Hero() {
     return (
-    <section class="hero" id="home">
-        <div class="hero_content">
-            <div class="hero_texts">
+    <section className="hero" id="home">
+        <div className="hero_content">
+            <div className="hero_texts">
                 <h1><span>H</span>ello</h1>
-                <h3>I Am <span class="input"><Typing/> </span></h3>
+                <h3>I Am <span className="input"><Typing/> </span></h3>
                 
             </div>
         </div>
 
 
         {/* <!-- animation --> */}
-        <div class="effect1">
+        <div className="effect1">
             <div></div><div></div><div></div>
             <div></div><div></div><div></div>
             <div></div><div></div><div></div>
@@ -26,10 +26,10 @@ function Hero() {
             <div></div><div></div><div></div>
             <div></div>
         </div>
-        <div class="effect2">
+        <div className="effect2">
             <span></span>
         </div>
-        <div class="rings">
+        <div className="rings">
             <span></span>
             <span></span>
             <span></span>

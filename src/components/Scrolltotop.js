@@ -35,9 +35,9 @@ function ScrollTop() {
       }, []);
     
     return(
-        <div class={istop ? "btn-visibility upbuttondiv" : "upbuttondiv"} >
-            <div class="upbutton"  onClick= {scrollToTop}>
-                <i class="bi bi-chevron-double-up"></i>
+        <div className={istop ? "btn-visibility upbuttondiv" : "upbuttondiv"} >
+            <div className="upbutton"  onClick= {scrollToTop}>
+                <i className="bi bi-chevron-double-up"></i>
             </div>
         </div>
         

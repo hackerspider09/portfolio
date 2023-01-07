@@ -1,0 +1,22 @@
+.projects{
+    min-height: 100vh;
+    width: 100%;
+}
+.project{
+    padding-top: 4rem;
+    width: 80%;
+    margin: auto;
+}
+
+.project h1{
+    text-align: center;
+    color: #66FCF1;
+    /* transition: ease-in-out .4s; */
+    margin-bottom: 2rem;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+.project h1:hover{
+    color: gold;
+    scale: 1.1;
+    transition: ease-in-out .4s;
+}

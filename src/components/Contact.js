@@ -4,7 +4,7 @@ import contact_det from './informations/contact_data';
 function Contact_detail(contstyle) {
     return (
         <div key={contstyle.id}>
-            <i className={contstyle.iclass}></i>&nbsp;<span>{contstyle.span_data}</span>:<p>{contstyle.p_data}</p>
+            <i className={contstyle.iclass}/><span>{contstyle.span_data}</span><p>{contstyle.p_data}</p>
         </div>
     );
 }

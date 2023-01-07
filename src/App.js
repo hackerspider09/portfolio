@@ -1,29 +1,38 @@
 import './App.css';
-import Skill from "./components/Skill"
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import Education from './components/Education';
+import "./index.css";
 import Navbar from './components/Navbar';
-import Typing from './components/Typing_animation';
-import Hero from './components/Hero';
-import ScrollTop from "./components/Scrolltotop"
-import { Route,Routes } from 'react-router-dom';
+import Projects from './pages/Projects';
+import Home from './pages/Homepage';
+import Contactme from './pages/Contactme';
+import Aboutme from './pages/Aboutme';
+import { BrowserRouter as Router ,Route,Routes } from 'react-router-dom';
 function App() {
   return (
     <>
     {/* <Typing /> */}
-    <Navbar />
-    {/* <Routes>
-      <Route path="/" element={<Hero />} />
-      <Route path="/skills" element={<Skill />} />
-      <Route path="/contact" element={<Contact />} />
-    </Routes> */}
-    <Hero />
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route exact path="/about">
+          <Aboutme />
+        </Route>
+        <Route exact path="/project">
+          <Projects />
+        </Route>
+        <Route exact path="/contact">
+          <Contactme />
+        </Route>
+      </Routes>
+    </Router>
+    {/* <Hero />
     <Skill />
     <Education />
     <Contact />
     <Footer />
-    <ScrollTop />
+    <ScrollTop /> */}
     </>
   );
 }
