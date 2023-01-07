@@ -1,0 +1,26 @@
+.upbutton{
+    color: #66FCF1;
+    position: fixed;
+    right: 6%;
+    bottom: 3%;
+    /* display: block; */
+    z-index: 999;
+    font-size: 2.5rem;
+    animation: top_btn_anim 2s  infinite ease-in-out;
+    
+}
+@keyframes top_btn_anim {
+    0%,100%{
+        transform: translateY(5px);
+    }50%{
+        transform: translateY(-5px);
+    }
+}
+.upbutton:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+.btn-visibility{
+    opacity: 0;
+}

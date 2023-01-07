@@ -1,0 +1,80 @@
+
+.skill{
+    width: 100%;
+    min-height: 100vh;
+    /* height: 100vh; */
+    padding-top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillbox{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 5rem 0;
+    margin: 1rem; */
+   
+}
+@media only screen and (max-width:1200px ){
+    .skill{
+        padding-top: 8rem;
+    }
+    .skillbox{
+        width: 100%;
+    }
+}
+.skillbox h1{
+    text-align: center;
+    color: #66FCF1;
+    transition: ease-in-out .4s;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+.skillbox h1:hover{
+    color: gold;
+    scale: 1.1;
+    
+}
+.skills{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.sk-in-box{
+    margin: 1rem;
+    width: 100px;
+    height: 100px;
+    background: rgba( 23, 28, 40, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sk-in-box i{
+    font-size: 2.5rem;
+}
+.sk-in-box:hover{
+    scale: 1.5;
+    cursor: pointer;
+}
+
+/* to invisible some icons */
+.icn-visible{
+    visibility: hidden;
+}
+/* for django color */
+.django-cust-color{
+    background-color: #098d5a;
+}
