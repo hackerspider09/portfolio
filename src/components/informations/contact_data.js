@@ -21,7 +21,7 @@ const contact_det=[
         id:4,
         iclass:"i bi-globe-central-south-asia",
         span_data:"Portfolio",
-        p_data:"Work in Progress",
+        p_data:"https://prasadkhatake.netlify.app/",
     },
 
 ];

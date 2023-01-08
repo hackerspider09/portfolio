@@ -3,10 +3,10 @@ import "./style/aboutcon.css";
 
 function Aboutcont() {
     return(
-        <div class="aboutcontdiv">
-        <div class="aboutcon">
+        <div className="aboutcontdiv">
+        <div className="aboutcon">
             <h1>About Me</h1>
-            <div class="aboutcon-det">
+            <div className="aboutcon-det">
                 <h2>Hello There, I am <span>Prasad</span></h2>
                <p>I am currently pursuing a bachelor's Degree in Electronics and Telecommunication, from the Pune Institute of Computer Technology.</p>
 

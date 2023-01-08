@@ -34,7 +34,7 @@ function Contact() {
                             </div>
                             <div className="mb-3">
                                 <label htmlFor="exampleFormControlTextarea1" className="form-label">Message</label>
-                                <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Any Message htmlFor Me"></textarea>
+                                <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Any Message For Me"></textarea>
                             </div>
                             <div className="contact-btndiv d-grid gap-2"><button className="btn btn-primary" type="button">Message</button></div>
                         </form>

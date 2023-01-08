@@ -5,6 +5,7 @@ import Projects from './pages/Projects';
 import Home from './pages/Homepage';
 import Contactme from './pages/Contactme';
 import Aboutme from './pages/Aboutme';
+// import Resume from './pages/Resume';
 import { BrowserRouter as Router ,Route,Routes } from 'react-router-dom';
 function App() {
   
@@ -27,6 +28,9 @@ function App() {
         <Route exact path="/contact">
           <Contactme />
         </Route>
+        {/* <Route exact path="/resume">
+          <Resume />
+        </Route> */}
       </Routes>
     </Router>
     {/* <Hero />
