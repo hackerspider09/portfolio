@@ -51,4 +51,8 @@ font-family: 'Rubik Mono One', sans-serif;
   font-weight: normal;
   src:  url('./Font/shrikhand/Shrikhand-Regular.ttf')format('ttf');
   }
+  @font-face {
+    font-family: "Airstrike";
+    src: url("./Font/Airstrike/airstrike.ttf");
+}
 

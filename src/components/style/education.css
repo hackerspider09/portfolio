@@ -1,15 +1,15 @@
 .edu-section{
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin-top: 4rem; */
+    margin-top: 8rem;
     margin-bottom: 2rem;
 }.edu-section h1{
     color: #66FCF1;
     transition: ease-in-out .4s;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: "Airstrike";
     /* font-family: 'Roboto Mono', monospace; */
 }
 .edu-section h1:hover{

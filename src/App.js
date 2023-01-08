@@ -7,6 +7,8 @@ import Contactme from './pages/Contactme';
 import Aboutme from './pages/Aboutme';
 import { BrowserRouter as Router ,Route,Routes } from 'react-router-dom';
 function App() {
+  
+
   return (
     <>
     {/* <Typing /> */}

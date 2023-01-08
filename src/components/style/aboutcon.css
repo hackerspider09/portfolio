@@ -15,7 +15,7 @@
     text-align: center;
     margin: 1rem;
     color: #66FCF1;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: "Airstrike";
 }
 .aboutcon h1:hover{
     color: gold;
@@ -23,7 +23,7 @@
     transition: ease-in-out .4s;
 }
 .aboutcon-det{
-    max-width: 70%;
+    width: 70%;
     margin: auto;
 }
 .aboutcon-det h2 span{
@@ -41,4 +41,10 @@
     text-align: center;
     margin-top: 0.5rem;
     font-weight: 200;
+    font-family: 'Share Tech Mono', monospace;
+}
+@media only screen and (max-width:600px) {
+    .aboutcon-det{
+        width: 90%;
+    }
 }

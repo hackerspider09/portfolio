@@ -1,9 +1,9 @@
 
 .skill{
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     /* height: 100vh; */
-    /* padding-top: 8rem; */
+    margin-top: 8rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@
 }
 @media only screen and (max-width:900px ){
     .skill{
-        padding-top: 4rem;
+        margin-top: 4rem;
     }
     .skillbox{
         width: 100%;
@@ -30,7 +30,7 @@
     text-align: center;
     color: #66FCF1;
     transition: ease-in-out .4s;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: "Airstrike";
 }
 .skillbox h1:hover{
     color: gold;

@@ -17,7 +17,7 @@
     color: #66FCF1;
     /* transition: ease-in-out .4s; */
     margin-bottom: 2rem;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: "Airstrike";
 }
 .contact-section h1:hover{
     color: gold;
@@ -28,7 +28,7 @@
 
     width: 85%;
     /* padding: 1rem; */
-    margin: auto;
+    margin: 2rem auto;
     display: flex;
     justify-content: space-between;
     padding: 2rem;

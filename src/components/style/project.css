@@ -3,17 +3,22 @@
     width: 100%;
 }
 .project{
-    padding-top: 4rem;
+    padding-top: 8rem;
     width: 80%;
     margin: auto;
 }
-
+@media only screen and (max-width:900px) {
+    /* .project{
+        padding-top:rem;
+    } */
+}
 .project h1{
     text-align: center;
     color: #66FCF1;
     /* transition: ease-in-out .4s; */
+    /* margin-top: 8rem; */
     margin-bottom: 2rem;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: "Airstrike";
 }
 .project h1:hover{
     color: gold;

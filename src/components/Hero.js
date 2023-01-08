@@ -14,6 +14,7 @@ function Hero() {
 
 
         {/* <!-- animation --> */}
+        <div class="effct">
         <div className="effect1">
             <div></div><div></div><div></div>
             <div></div><div></div><div></div>
@@ -35,7 +36,7 @@ function Hero() {
             <span></span>
             <span></span>
         </div>
-        
+        </div>
     </section>
     )
 }
