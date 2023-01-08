@@ -18,6 +18,7 @@
 .hero_texts{
     width: 80%;
     text-align: center;
+    
 }
 .hero_texts span{
     color: #66FCF1;
@@ -25,6 +26,7 @@
 .hero_texts h3{
     font-family:'Shrikhand';
     font-size: 1.8rem;
+    font-weight: bold;
 }
 .hero_texts h1{
     font-family:'Nautilus';
@@ -52,7 +54,7 @@
     width:3px;
     height: 3px;
     border-radius: 100%;
-    background: rgb(254, 254, 4);
+    background: rgb(4, 211, 253);
     /* background: rgba(255, 255, 255, 0.05); */
     margin: 0 3px 8px ;
 }

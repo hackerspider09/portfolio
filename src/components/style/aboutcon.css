@@ -30,10 +30,11 @@
     color: #66FCF1;
 }
 .aboutcon-det h2{
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 1rem;
     text-align: center;
     color: white;
+    font-family: 'Share Tech Mono', monospace;
 }
 .aboutcon-det p{
     font-size: 1.25rem;
