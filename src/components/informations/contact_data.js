@@ -17,12 +17,12 @@ const contact_det=[
         span_data:"Email",
         p_data:"prasadkhatake20@gmail.com",
     },
-    {
-        id:4,
-        iclass:"i bi-globe-central-south-asia",
-        span_data:"Portfolio",
-        p_data:"https://prasadkhatake.netlify.app/",
-    },
+    // {
+    //     id:4,
+    //     iclass:"i bi-globe-central-south-asia",
+    //     span_data:"Portfolio",
+    //     p_data:"https://prasadkhatake.netlify.app/",
+    // },
 
 ];
 
