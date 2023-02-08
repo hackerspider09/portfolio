@@ -2,7 +2,7 @@ header{
     width: 100%;
     display: flex;
     background: rgba( 0, 0, 0, 0.05 );
-    box-shadow: 0 8px 32px 0 rgba(16, 223, 255, 0.37);
+    /* box-shadow: 0 8px 32px 0 rgba(16, 223, 255, 0.37); */
     backdrop-filter: blur( 8px );
     -webkit-backdrop-filter: blur( 3px );
 
@@ -163,6 +163,7 @@ nav{
         padding: 0.8rem;
         /* width: 100%; */
         z-index: 999;
+        text-align: center;
         
         
     }

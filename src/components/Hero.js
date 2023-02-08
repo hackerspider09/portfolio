@@ -13,30 +13,7 @@ function Hero() {
         </div>
 
 
-        {/* <!-- animation --> */}
-        <div class="effct">
-        <div className="effect1">
-            <div></div><div></div><div></div>
-            <div></div><div></div><div></div>
-            <div></div><div></div><div></div>
-            <div></div><div></div><div></div>
-            <div></div><div></div><div></div>
-            <div></div><div></div><div></div>
-            <div></div><div></div><div></div>
-            <div></div><div></div><div></div>
-            <div></div><div></div><div></div>
-            <div></div>
-        </div>
-        <div className="effect2">
-            <span></span>
-        </div>
-        <div className="rings">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        </div>
+        
     </section>
     )
 }

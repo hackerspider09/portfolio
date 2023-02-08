@@ -1,7 +1,7 @@
 
 .skill{
     width: 100%;
-    /* min-height: 100vh; */
+    /* max-height: 100vh; */
     /* height: 100vh; */
     margin-top: 8rem;
     display: flex;
@@ -67,8 +67,10 @@
     font-size: 2.5rem;
 }
 .sk-in-box:hover{
-    scale: 1.5;
+    scale: 1.2;
     cursor: pointer;
+    box-shadow: 0 0 15px 1px #66FCF1;
+
 }
 
 /* to invisible some icons */
