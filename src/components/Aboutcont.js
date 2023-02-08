@@ -12,7 +12,6 @@ function Aboutcont() {
 
                 <p>I am passionate about web development. I love spending time to build websites and I am always trying to build new things and bring my ideas to reality.</p> 
 
-                <p>I like to explore new techs. I am trying to associate with an organization where I can utilize my skills in the best manner, which can help me further improve my skills.</p>
             </div>
         </div>
     </div>

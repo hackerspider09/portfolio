@@ -18,11 +18,12 @@
     /* transition: ease-in-out .4s; */
     margin-bottom: 2rem;
     font-family: "Airstrike";
+    transition: ease-in-out .4s;
 }
 .contact-section h1:hover{
     color: gold;
     scale: 1.1;
-    transition: ease-in-out .4s;
+    
 }
 .contact-sec{
 
@@ -97,7 +98,7 @@
     }
     .contact-con{
         width: 100%;
-        margin-top: 2rem;
+        margin-top: 4rem;
     }
     .contact-form{
         width: 100%;
@@ -126,7 +127,7 @@
     flex-direction: column;
     transition: ease-in-out .4s;
     /* align-items: center; */
-    margin-bottom: 1rem;
+    margin: 1rem 0;
 }
 .contact-con-det div p {
     font-size: 0.9rem;
