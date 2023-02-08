@@ -35,7 +35,8 @@ function Navbar() {
         <header className="header" ref={Headerref}>
             
             <div className="nav_name">
-                <span>&lt;</span><span>Prasad</span><span>/&gt;</span>
+                <span>&lt;</span><span><a href="https://prasadkhatake.netlify.app/">Prasad</a></span><span>/&gt;</span>
+                {/* <span>&lt;</span><span>Prasad</span><span>/&gt;</span> */}
             </div>
             
             {/* <!-- <div className="nav_name">Prasad Khatake</div> --> */}

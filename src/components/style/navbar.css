@@ -29,6 +29,10 @@ nav{
     cursor: pointer;
     
 }
+.nav_name span a{
+    text-decoration: none;
+    color: #66FCF1;
+}
 .nav_name span:nth-child(even){
     /* color: white; */
     font-weight: bolder;
